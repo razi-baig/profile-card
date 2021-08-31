@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+}
+.all {
+  background-image: url(https://cdn.wallpapersafari.com/67/40/y52FM6.jpg);
+  width: 60%;
+  height: 100vh;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+}
+.img {
+  bottom: 210px;
+  position: absolute;
+}
+.main {
+  width: 70%;
+  height: 70vh;
+  padding-left: 10vh;
+  padding-top: 10vh;
+}
+.upper {
+  background-color: slateblue;
+  width: 100%;
+  height: 20vh;
+}
+.mid {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 45vh;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.name {
+  padding-top: 9vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter" sans-serif;
+  font-size: 17px;
+}
+
+.lower {
+  background-color: white;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 50%;
+  height: 9vh;
+  border: white;
+  border-bottom: 1px solid grey;
+  font-family: "Inter" sans-serif;
+  font-weight: 800;
+}
